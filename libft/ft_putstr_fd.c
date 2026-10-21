@@ -6,20 +6,24 @@
 /*   By: likhye-y <likhye-y@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 22:37:29 by likhye-y          #+#    #+#             */
-/*   Updated: 2026/08/05 22:38:59 by likhye-y         ###   ########.fr       */
+/*   Updated: 2026/10/21 14:26:04 by likhye-y         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+int	ft_putstr_fd(char *s, int fd)
 {
 	size_t	i;
+	int		count;
 
 	i = 0;
+	count = 0;
 	while (s[i] != '\0')
 	{
 		write(fd, &s[i], 1);
 		i++;
+		count++;
 	}
+	return (count);
 }
