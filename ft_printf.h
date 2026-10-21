@@ -6,7 +6,7 @@
 /*   By: likhye-y <likhye-y@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 18:46:38 by likhye-y          #+#    #+#             */
-/*   Updated: 2026/10/21 16:39:52 by likhye-y         ###   ########.fr       */
+/*   Updated: 2026/10/21 17:06:41 by likhye-y         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@
 # include <stdint.h>
 # include "libft/libft.h"
 
-
+/*
 # include <stdio.h>
-
+*/
 
 typedef struct  s_count
 {
